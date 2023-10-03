@@ -79,7 +79,7 @@ Una aplicación híbrida es una aplicación que se puede ejecutar tanto en dispo
 
 A continuación se muestra una tabla que resume las principales diferencias entre las aplicaciones web, móviles, de escritorio e híbridas:
 
-![texto alternativo](file:///C:/Users/W10/Pictures/f.PNG)
+![Alt text](../Imagenes/1.PNG)
 
 8. ¿Qué es un dominio, un subdominio, una extensión de dominio, un hosting y tipos de hosting?
 Un dominio es el nombre de un sitio web en la web. Por ejemplo, el dominio de este sitio web es "www.google.com". Un subdominio es un nombre de dominio que se encuentra debajo de un dominio principal. Por ejemplo, el subdominio de este sitio web es "www". Una extensión de dominio es la parte final de un nombre de dominio. Por ejemplo, la extensión de dominio de este sitio web es ".com". El hosting es el servicio que proporciona espacio en un servidor para almacenar los archivos de un sitio web. Hay varios tipos de hosting, incluyendo el hosting compartido, el hosting dedicado y el hosting en la nube.
