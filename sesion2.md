@@ -17,6 +17,7 @@ Contacto
 # DESARROLLO
 
 ## index.html
+```java 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -48,9 +49,10 @@ Contacto
 </body>
 
 </html>
+```
 
 ## contac.html
-
+```java 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,9 +102,10 @@ Contacto
 </body>
 
 </html>
+```
 
 ## about.html
-
+```java 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -142,3 +145,4 @@ Contacto
 </body>
 
 </html>
+```
