@@ -44,7 +44,9 @@ El objetivo de esta actividad es crear la estructura HTML básica de una página
 ### INDEX.html
 
 ~~~html
-="en">
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -60,23 +62,21 @@ El objetivo de esta actividad es crear la estructura HTML básica de una página
             2000</h1>
     </header>
     <section>
-        <h3 class="peliculas">American Psycho</h3>
+        <h3 class="destacado">American Psycho</h3>
         <p>Una experiencia inolvidable, ¿verdad? La directora Mary Harron adaptó la novela homónima de Bret Easton Ellis
             sobre un joven, atractivo y exitoso ejecutivo de Wall Street con un oscuro secreto: sus instintos asesino.
             Fue además el primer gran personaje de Christian Bale.</p><br>
-        <img src="imagenes/americanpsycho2.webp" alt="300" height="400">
 
-        <h3 class="peliculas">Scary Movie</h3>
+        <h3 class="destacado">Scary Movie</h3>
         <p>Hablando de slashers y sagas divertidas, 'Scary Movie'. Si no te convence verla en esta lista, recuerda las
             carcajadas que te echaste.</p><br>
-        <img src="imagenes/scarymovie3.webp" alt="200" height="450">
         
-        <h3 class="peliculas">Memento</h3>
+        <h3 class="destacado">Memento</h3>
         <p>Antes de ser mundialmente aclamado por su revisión de 'Batman', Christopher Nolan llamó la atención de los
             críticos con 'Memento', thriller sobre un hombre con amnesia que se tatúa lo que recuerda para investigar el
             asesinato de su esposa.</p><br>
-
-        <img src="imagenes/memento1.webp" alt="300" height="400">
+<h3 class="destacado">UN POCO DEL 200</h3>
+        <img src="imagenes/2000.png" alt="300" height="300"> 
     </section>
 
     <footer>
@@ -96,13 +96,11 @@ El objetivo de esta actividad es crear la estructura HTML básica de una página
 ~~~css
 
 h1 {
-    color: rgb(17, 0, 255);
+    color: red;
 }
 
 p {
-    color: rgb(157, 46, 231);
-    text-align: center;
-    text-transform: inherit;
+    color: blue;
 }
 
 img {
@@ -111,26 +109,27 @@ img {
 
 /*seleccionadores de clase*/
 
-.peliculas   {
-    color: rgb(252, 151, 210);
+.destacado {
+    color: green;
 }
 
 .grande {
     font-size: large;
-    color: rgb(255, 0, 212);
 }
 
+/*seleccionadores de ID*/
 
 #principal {
-    color: rgb(38, 16, 238);
+    color: yellow;
 }
 
 #sombras {
-    color: rgb(41, 99, 173);
+    color: yellow;
     font-weight: 900;
-    text-shadow: 3px 4px 0px rgb(0, 2, 128), 5px 10px 0px rgb(191, 50, 226);
+    text-shadow: 3px 3px 0px green, 5px 5px 0px black;
 }
 
+/*seleccionadores descendientes*/
 div p {
     color: gray;
     text-align: center;
@@ -138,6 +137,7 @@ div p {
 section h3, p {
     text-align: center;
 }
+
 
 ~~~
 
