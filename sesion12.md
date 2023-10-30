@@ -15,6 +15,7 @@ Subir el proyecto a un repositorio en GitHub llamado “EvaluaciónM2”
 Publicar el proyecto como pagina web en gitHub Page.
 index.html
 
+~~~html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,9 +46,13 @@ index.html
 </body>
 
 </html>
+~~~
+
 
 ejercicio1.html
-ejercicio1.html
+
+~~~html
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,9 +75,11 @@ ejercicio1.html
 </body>
 
 </html>
+~~~
 
 ejercicio2.html
-ejercicio2.html
+
+~~~html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -95,9 +102,10 @@ ejercicio2.html
 </body>
 
 </html>
+~~~
 
 ejercicio3.html
-ejercicio3.html
+~~~html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -120,15 +128,17 @@ ejercicio3.html
 </body>
 
 </html>
+~~~
 
 3. Enlace de entrega
-Enlace de entrega
+
+- Enlace de entrega
 
 ## DESARROLLO:
 
-[Link Repositorio] (https://github.com/Sara-l1/Evaluaci-nM2-)
+[Link Repositorio](https://github.com/Sara-l1/Evaluaci-nM2-)
 
-[Link sesión 12] (https://sara-l1.github.io/Evaluaci-nM2-/)
+[Link sesión 12](https://sara-l1.github.io/Evaluaci-nM2-/)
 
 
 
